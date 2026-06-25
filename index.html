@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wilson Chiveio - Portfólio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="icon" type="image/png" href="imagens/foto_profissional.png">
+  <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
+</head>
+
+<body>
+  <div class="particula"></div>
+
+  <nav class="navbar">
+    <a href="#inicio" class="brand">Dev Wilson Chiveio</a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="menu" id="menu">
+      <li><a href="#inicio" class="menu-link">Início</a></li>
+      <li><a href="#sobre-mim" class="menu-link">Sobre</a></li>
+      <li><a href="#projetos" class="menu-link">Projetos</a></li>
+      <li><a href="#habilidades" class="menu-link">Habilidades</a></li>
+      <li><a href="#ferramentas" class="menu-link">Ferramentas</a></li>
+      <li><a href="#C.V" class="menu-link">Currículo</a></li>
+      <li><a href="#contato" class="menu-link">Contacto</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button type="button" class="theme-btn" id="theme-btn" aria-label="Alternar tema">⚙</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="hero-card">
+      <div class="hero-left">
+        <h1 class="hero-title">Wilson Chiveio</h1>
+        <p class="hero-role"> <span id="typed"></span></p>
+        <p class="hero-desc">Desenvolvedor Front-end com foco em interfaces modernas, desempenho e boa experiência do
+          usuário. Gosto de transformar ideias em aplicações reais.</p>
+
+        <ul class="tech-list">
+          <div class="skills">
+            <span><i class="devicon-html5-plain colored"></i> HTML</span>
+            <span><i class="devicon-css3-plain colored"></i> CSS</span>
+            <span><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+            <span><i class="devicon-react-original colored"></i> React</span>
+            <span><i class="devicon-python-plain colored"></i> Python</span>
+          </div>
+        </ul>
+
+        <div class="hero-ctas">
+          <a class="btn-primary" href="imagens/wilson_chiveio_cv.pdf" target="_blank">Baixar C.V</a>
+          <a class="btn-secondary" href="#contato">Entrar em contato</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>4+</strong><span>Projetos</span></div>
+          <div><strong>Em formação</strong><span>Estado</span></div>
+          <div><strong>Disponível para trabalho</strong><span>Presencial & Remoto</span></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="imagens/foto_profissional.png" alt="Foto de perfil" class="foto-perfil">
+        <div class="socials">
+          <a href="https://github.com/Wilsonice123" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/wilson-chiveio" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="mailto:wchiveio@gmail.com" aria-label="E-mail">
+            <i class="fa-solid fa-envelope"></i> E-mail
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="sobre-mim" id="sobre-mim">
+    <h2 class="sobre-titulo">Sobre Mim</h2>
+    <div class="sobre-conteudo">
+      <p class="sobre-paragrafo">Olá! Sou Wilson Kayumbuco Correia Chiveio — desenvolvedor front-end apaixonado por
+        criar experiências digitais envolventes. Trabalho com HTML, CSS, JavaScript e frameworks modernos. Gosto de
+        design actualmente desenvolvendo interfaces responsivas, lindas, e funcionais para mobile e desktop (UI/UX),
+        performance e boas práticas, pronto para aprender e desenvolver soluções reais para empresas.</p>
+      <ul class="sobre-pontos">
+        <li><strong>Local:</strong> Luanda, Angola (Talatona)</li>
+        <li><strong>Contato:</strong> wchiveio@gmail.com <span>/</span> (+244) 945213998</li>
+        <li><strong>Disponibilidade:</strong> Aberto a oportunidades</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <h2 class="projetos-titulo">Meus Projetos</h2>
+    <div class="projetos-caixa">
+
+      <div class="projeto-card">
+        <img src="imagens/loja.png" alt="Loja Virtual" class="projeto-imagem">
+        <div class="caixa-textos-projeto">
+          <h3 class="info-projetos">Loja Virtual</h3>
+          <p class="paragrafo-projeto">Desenvolvi uma loja virtual utilizando HTML, CSS e JavaScript, onde os usuários
+            podem navegar por produtos, adicionar itens ao carrinho e finalizar suas compras de forma intuitiva e
+            responsiva.</p>
+        </div>
+      </div>
+      <div class="projeto-card">
+        <img src="imagens/cardapio.png" alt="cardapio" class="projeto-imagem">
+        <div class="caixa-textos-projeto">
+          <h3 class="info-projetos-segundo">Cardápio Digital com QR code</h3>
+          <p class="paragrafo-projeto-segundo">Desenvolvi um cardápio digital mobile para tornar tudo mais fácil,
+            utilizei HTML, CSS, JavaScript, react, git e githubcapilot.</p>
+        </div>
+      </div>
+      <div class="projeto-card">
+        <img src="imagens/simulador_de_lampada.png" alt="simulador de lâmpada" class="projeto-imagem">
+        <div class="caixa-textos-projeto">
+          <h3 class="info-projetos-segundo">Simulador de Lâmpada</h3>
+          <p class="paragrafo-projeto-segundo">Desenvolvi um simulador de lâmpada é uma interface interativa que permite
+            aos usuários ligar e desligar uma lâmpada virtual,
+            utilizei HTML, CSS, JavaScript e react.</p>
+        </div>
+      </div>
+      <div class="projeto-card">
+        <img src="imagens/mgc.jpg" alt="Portfólio MGC" class="projeto-imagem">
+        <div class="caixa-textos-projeto">
+          <h3 class="info-projetos-terceiro">Portfólio empresa MGC</h3>
+          <p class="paragrafo-projeto-segundo">Desenvolvi um portfólio profissional utilizando HTML, CSS e JavaScript,
+            para a empresa MGC, que é uma empresa de vendas de peças automotivas.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <section class="habilidades" id="habilidades">
+      <section class="skills-section" id="habilidades">
+        <h2 class="subtitle">Habilidades</h2>
+        <p class="subtitle">
+          Tecnologias e competências que utilizo para criar soluções modernas e eficientes.
+        </p>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <i class="fa-brands fa-html5 html"></i>
+            <h3>HTML</h3>
+            <p>Estruturação de páginas web semânticas.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt css"></i>
+            <h3>CSS</h3>
+            <p>Estilização de interfaces modernas.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-js js"></i>
+            <h3>JavaScript</h3>
+            <p>Criação de aplicações interativas.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-react react"></i>
+            <h3>React.js</h3>
+            <p>Desenvolvimento de interfaces modernas.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-typescript-plain colored"></i>
+            <h3>TypeScript</h3>
+            <p>JavaScript com tipagem estática.</p>
+          </div>
+
+          <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/nextdotjs/white" class="icon-img">
+            <h3>Next.js</h3>
+            <p>Framework React para aplicações rápidas.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-cloud api"></i>
+            <h3>APIs REST</h3>
+            <p>Consumo e integração de APIs.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-pencil-ruler uiux"></i>
+            <h3>UI/UX Design</h3>
+            <p>Experiências intuitivas e modernas.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-python python"></i>
+            <h3>Python</h3>
+            <p>Automação e desenvolvimento.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-git-alt git"></i>
+            <h3>Git & GitHub</h3>
+            <p>Controle de versões e colaboração.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-figma figma"></i>
+            <h3>Design Gráfico</h3>
+            <p>Criação de interfaces e layouts.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-file-excel excel"></i>
+            <h3>Excel Avançado</h3>
+            <p>Análise e organização de dados.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-regular fa-comments soft"></i>
+            <h3>Comunicação Eficaz</h3>
+            <p>Clareza e trabalho colaborativo.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-brain soft"></i>
+            <h3>Resolução de Problemas</h3>
+            <p>Análise e pensamento crítico.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-rocket soft"></i>
+            <h3>Adaptabilidade</h3>
+            <p>Aprendizagem contínua e evolução.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-users soft"></i>
+            <h3>Trabalho em Equipe</h3>
+            <p>Colaboração para atingir objetivos.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section" id="ferramentas">
+      <p class="section-label">O que utilizo</p>
+      <h2 class="section-title">Ferramentas & <span>Ambiente</span></h2>
+      <p class="section-subtitle">As ferramentas que uso no dia a dia para desenvolver, versionar e hospedar projetos.
+      </p>
+      <div class="tools-grid">
+        <div class="tool-card" style="--accent: #007ACC;">
+          <img class="tool-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+            alt="VS Code" />
+          <span class="tool-name">VS Code</span>
+          <span class="tool-desc">Editor de código principal</span>
+        </div>
+
+        <!-- Git -->
+        <div class="tool-card" style="--accent: #F05032;">
+          <img class="tool-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            alt="Git" />
+          <span class="tool-name">Git</span>
+          <span class="tool-desc">Controlo de versões</span>
+        </div>
+
+        <!-- GitHub -->
+        <div class="tool-card" style="--accent: #ffffff;">
+          <img class="tool-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="GitHub" style="filter: invert(1);" />
+          <span class="tool-name">GitHub</span>
+          <span class="tool-desc">Repositório de projetos</span>
+        </div>
+
+        <!-- Vercel -->
+        <div class="tool-card" style="--accent: #ffffff;">
+          <img class="tool-icon"
+            src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" alt="Vercel"
+            style="border-radius: 8px;" />
+          <span class="tool-name">Vercel</span>
+          <span class="tool-desc">Deploy e hospedagem</span>
+        </div>
+
+        <!-- Postman -->
+        <div class="tool-card" style="--accent: #FF6C37;">
+          <img class="tool-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+            alt="Postman" />
+          <span class="tool-name">Postman</span>
+          <span class="tool-desc">Testes de API</span>
+        </div>
+        <!-- Photoshop -->
+        <div class="tool-card" style="--accent: #215cb4;">
+          <img class="tool-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+            alt="Photoshop" />
+          <span class="tool-name">Photoshop</span>
+          <span class="tool-desc">Edição e design gráfico</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="serviços" id="serviços">
+      <h2 class="serviços-titulo">Serviços</h2>
+      <div class="serviços-conteudo">
+        <ul class="serviços-lista">
+          <li>Desenvolvimento Web</li>
+          <li>Design Responsivo</li>
+          <li>Consultoria Técnica</li>
+          <li>Manutenção de Sites</li>
+          <li>Freelancer</li>
+          <li>Criação de Portfólios</li>
+          <li>Otimização de Performance</li>
+          <li>Criação de E-mail profissional</li>
+          <li>Criação de formulários</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="C.V" id="C.V">
+      <h2 class="cv-titulo">Currículo</h2>
+      <div class="cv-conteudo">
+        <p>Informações do meu currículo...</p>
+        <a href="imagens/wilson_chiveio_cv.pdf" class="botao-cv" target="_blank">Baixar Currículo</a>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <h2 class="contato-titulo">Entre em contacto</h2>
+      <form class="formulario-contato" id="formulario">
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" id="name">
+        </div>
+        <div class="grupo-form">
+          <textarea class="campo-form" placeholder="Insira sua mensagem" rows="4" id="message"></textarea>
+        </div>
+        <button type="submit" class="botao-enviar">Enviar via E-mail</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+
+        <!-- TOP -->
+        <div class="footer-top">
+
+          <!-- Coluna 1 — Identidade -->
+          <div class="footer-brand">
+            <p class="brand-role">Desenvolvedor Front-End</p>
+            <h2 class="brand-name">Wilson <span>Chiveio</span></h2>
+            <p>Focado em criar interfaces modernas, responsivas e centradas na experiência do utilizador. Disponível
+              para novos projetos.</p>
+            <div class="footer-socials">
+              <a href="https://github.com/Wilsonice123" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/Wilson-Chiveio" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:wchiveio@gmail.com" title="E-mail">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Coluna 2 — Navegação -->
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#cv">C.V</a></li>
+              <li><a href="#contato">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Coluna 3 — Contacto -->
+          <div class="footer-col">
+            <h4>Contacto</h4>
+            <div class="footer-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Luanda, Angola</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+244945213998">+244 945 213 998</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:wchiveio@gmail.com">wchiveio@gmail.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/Wilsonice123" target="_blank">github.com/Wilsonice123</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- DIVIDER -->
+        <hr class="footer-divider" />
+
+        <!-- BOTTOM -->
+        <div class="footer-bottom">
+          <p>© 2025 <span>Wilson Chiveio</span>. Todos os direitos reservados.</p>
+          <a href="#inicio" class="back-to-top">
+            Voltar ao topo <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
